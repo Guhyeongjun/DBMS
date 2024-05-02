@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="배달달 데이터" id="C09F9F0F-4FE9-7CFB-3066-15BBC3CC8344" version="3.5">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 00:23:35 UTC</createdTime>
+<ownerDesignName>배달달 데이터</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C09F9F0F-4FE9-7CFB-3066-15BBC3CC8344</designId>
+</OSDM_Design>

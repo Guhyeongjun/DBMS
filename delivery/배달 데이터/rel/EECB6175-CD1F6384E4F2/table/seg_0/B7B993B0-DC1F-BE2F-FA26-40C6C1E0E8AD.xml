@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B7B993B0-DC1F-BE2F-FA26-40C6C1E0E8AD" name="payment">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 00:37:25 UTC</createdTime>
+<ownerDesignName>배달달 데이터</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="payment_id" id="CDAB9563-6ED7-0EE4-4FB1-B4D5495D6F99">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 00:37:45 UTC</createdTime>
+<ownerDesignName>배달달 데이터</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="paymentmethod" id="D88D0D71-5C03-F8FC-8C53-359B1E053DC8">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 00:37:45 UTC</createdTime>
+<ownerDesignName>배달달 데이터</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price" id="47B07046-413C-A81D-A7C3-2F9AC0BBE152">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 00:37:45 UTC</createdTime>
+<ownerDesignName>배달달 데이터</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="orders_order_id" id="CF7D2E1D-CFE4-DE4F-8888-9835538D5C81">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 00:38:18 UTC</createdTime>
+<ownerDesignName>배달달 데이터</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3D7DAB5F-E68C-DCDB-BB43-05E6CB9D59C6" referredColumn="D93BA493-27ED-69A6-E6AD-D58EF58D8B76"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FD15C235-BE89-6F36-4331-FE57C4679224" name="payment_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 00:37:45 UTC</createdTime>
+<ownerDesignName>배달달 데이터</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDAB9563-6ED7-0EE4-4FB1-B4D5495D6F99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF8EA019-284A-F6CE-75A3-D12AED1C9A27" name="payment_orders_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 00:38:18 UTC</createdTime>
+<ownerDesignName>배달달 데이터</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF7D2E1D-CFE4-DE4F-8888-9835538D5C81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

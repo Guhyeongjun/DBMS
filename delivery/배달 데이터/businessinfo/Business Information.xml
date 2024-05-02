@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="8E19A673-5682-54E4-1C85-8B17EE89F1E8">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 00:23:35 UTC</createdTime>
+<ownerDesignName>배달달 데이터</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

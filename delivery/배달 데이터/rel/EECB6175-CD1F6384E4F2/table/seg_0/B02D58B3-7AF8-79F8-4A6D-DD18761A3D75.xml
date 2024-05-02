@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B02D58B3-7AF8-79F8-4A6D-DD18761A3D75" name="orders">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 00:34:41 UTC</createdTime>
+<ownerDesignName>배달달 데이터</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="order_id" id="D93BA493-27ED-69A6-E6AD-D58EF58D8B76">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 00:35:06 UTC</createdTime>
+<ownerDesignName>배달달 데이터</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantity" id="D021671D-0DDF-BDAE-B3D5-2B43BD4629F8">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 00:35:44 UTC</createdTime>
+<ownerDesignName>배달달 데이터</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price" id="4389F962-7C89-2A83-3E27-6D7842FF8654">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 00:35:44 UTC</createdTime>
+<ownerDesignName>배달달 데이터</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="order_time" id="F1423581-EBC0-A749-1A9E-CD72584C5720">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 00:35:44 UTC</createdTime>
+<ownerDesignName>배달달 데이터</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="customer_user_id" id="D8D7601D-45D1-705C-01DF-2068C83919A2">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 00:36:06 UTC</createdTime>
+<ownerDesignName>배달달 데이터</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="19E8C3DD-1D47-BDFA-FE0B-21589707BB76" referredColumn="12DC7FCA-77AD-D86F-18F0-C1C0703C6246"/>
+</associations>
+</Column>
+<Column name="menu_menu_id" id="3EB73CF6-E222-F752-09AE-1F2B675085AC">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 00:36:26 UTC</createdTime>
+<ownerDesignName>배달달 데이터</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18A228BD-35CD-264D-00B6-23BC41A63823" referredColumn="1A93EDB5-7FA7-E6B7-8B3B-45535376ADE3"/>
+</associations>
+</Column>
+<Column name="shop_shop_id" id="A894E801-2065-B13D-0D0C-C0F6C4F9E9C5">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 00:36:35 UTC</createdTime>
+<ownerDesignName>배달달 데이터</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D1DB710-3BEC-A7CB-2F86-9F69F0AA3FE0" referredColumn="34A586D6-E4E0-7FF1-92F8-BFC647F59A2B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="847C07B1-1B3B-6F6D-A1D2-BC0D8A0A6FCD" name="orders_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 00:35:06 UTC</createdTime>
+<ownerDesignName>배달달 데이터</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D93BA493-27ED-69A6-E6AD-D58EF58D8B76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F32D5F9B-BB12-3158-AC77-C153D15A323A" name="orders_customer_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 00:36:06 UTC</createdTime>
+<ownerDesignName>배달달 데이터</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8D7601D-45D1-705C-01DF-2068C83919A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54928BAB-A481-A4B4-AA98-AB000A788E1C" name="orders_menu_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 00:36:26 UTC</createdTime>
+<ownerDesignName>배달달 데이터</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EB73CF6-E222-F752-09AE-1F2B675085AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7FA0359C-1392-3275-EFB2-DDDEC3416142" name="orders_shop_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 00:36:35 UTC</createdTime>
+<ownerDesignName>배달달 데이터</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A894E801-2065-B13D-0D0C-C0F6C4F9E9C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

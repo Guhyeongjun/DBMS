@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="18A228BD-35CD-264D-00B6-23BC41A63823" containerWithKeyObject="B02D58B3-7AF8-79F8-4A6D-DD18761A3D75" localFKIndex="54928BAB-A481-A4B4-AA98-AB000A788E1C" name="orders_menu_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-02 00:36:26 UTC</createdTime>
+<ownerDesignName>배달달 데이터</ownerDesignName>
+<referredTableLongName>menu</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3BED97B1-A6B7-6288-0F5E-E741108CC94F</referredTableID>
+<keyObject>861EEF7A-B04B-DE98-404A-F4AF9695B9B8</keyObject>
+<referredKeyID>861EEF7A-B04B-DE98-404A-F4AF9695B9B8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>menu_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
