@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="B98BBB38-3781-C6FF-6C05-E89848B8C7B0" mainViewID="D888378B-DB0E-15DF-7037-B167BB3168D5">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-03 06:35:27 UTC</createdTime>
+<ownerDesignName>배달 데이터베이스</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>79C73AAF-E1A7-E669-7DF0-025EE81A2AFC</selectedRDBMSSite>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>Delivery</connName>
+<connUser>c##Delivery</connUser>
+<connType>1</connType>
+</importConnectionStamp>
+</importConnectionStamps>
+</relationalModel>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="97E14903-FCCA-DD0E-A9AF-8990C9BAE0C6" containerWithKeyObject="CF0C4D9F-45DA-92AE-0320-1C2BF47B2CE7" localFKIndex="6193BC5A-AF4A-EE52-5F90-42629D8B4EF8" name="SYS_C007900">
+<sourceConnName>Delivery</sourceConnName>
+<sourceObjSchema>C##DELIVERY</sourceObjSchema>
+<sourceObjName>SYS_C007900</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-03 06:39:39 UTC</createdTime>
+<ownerDesignName>배달 데이터베이스</ownerDesignName>
+<referredTableLongName>C##DELIVERY.SHOP</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A6B9AA52-4571-2B99-1399-B04AAFF79B7B</referredTableID>
+<keyObject>24558A74-70BA-5B06-08E2-118ADBB90121</keyObject>
+<referredKeyID>24558A74-70BA-5B06-08E2-118ADBB90121</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>SHOP_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

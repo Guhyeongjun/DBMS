@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="배달 데이터베이스" id="A1471FA0-E904-91A1-CBFA-A7D42120F6A0" version="3.5">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-03 01:15:45 UTC</createdTime>
+<ownerDesignName>배달 데이터베이스</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A1471FA0-E904-91A1-CBFA-A7D42120F6A0</designId>
+</OSDM_Design>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DD8939D1-CE90-ED0B-7DD4-DA2F3F120F94" containerWithKeyObject="415C35EF-CD32-A8D7-BE46-39858DCBFE06" localFKIndex="AC80D131-3BA9-D7CF-AFC6-C4DB4BB23B4F" name="SYS_C007897">
+<sourceConnName>Delivery</sourceConnName>
+<sourceObjSchema>C##DELIVERY</sourceObjSchema>
+<sourceObjName>SYS_C007897</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-03 06:39:39 UTC</createdTime>
+<ownerDesignName>배달 데이터베이스</ownerDesignName>
+<referredTableLongName>C##DELIVERY.MENU</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CF0C4D9F-45DA-92AE-0320-1C2BF47B2CE7</referredTableID>
+<keyObject>A47DE14F-F877-2E99-0C2B-0543B1192521</keyObject>
+<referredKeyID>A47DE14F-F877-2E99-0C2B-0543B1192521</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>MENU_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

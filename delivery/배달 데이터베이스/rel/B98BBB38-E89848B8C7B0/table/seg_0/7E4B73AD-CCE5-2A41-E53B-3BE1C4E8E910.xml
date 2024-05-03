@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7E4B73AD-CCE5-2A41-E53B-3BE1C4E8E910" schemaObject="58CB47DD-0A70-D72B-221D-7501BC63154E" name="PAYMENT">
+<sourceConnName>Delivery</sourceConnName>
+<sourceObjSchema>C##DELIVERY</sourceObjSchema>
+<sourceObjName>PAYMENT</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-03 06:39:38 UTC</createdTime>
+<ownerDesignName>배달 데이터베이스</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PAYMENT_ID" id="3484E0C3-0CAC-B820-5F05-F4BCE242E3CA">
+<sourceConnName>Delivery</sourceConnName>
+<sourceObjSchema>PAYMENT</sourceObjSchema>
+<sourceObjName>PAYMENT_ID</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-03 06:39:38 UTC</createdTime>
+<ownerDesignName>배달 데이터베이스</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDER_ID" id="18BB57A9-AE2F-18D3-F40C-BE55F4F93481">
+<sourceConnName>Delivery</sourceConnName>
+<sourceObjSchema>PAYMENT</sourceObjSchema>
+<sourceObjName>ORDER_ID</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-03 06:39:38 UTC</createdTime>
+<ownerDesignName>배달 데이터베이스</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7481A600-B4FD-4D75-FD61-1C4B571CC9CF" referredColumn="F06B810A-C996-CD9D-6F49-8A1969F6802E"/>
+</associations>
+</Column>
+<Column name="PAYMENTMETHOD" id="9FF0468F-F25E-3FF9-2F73-B66D0C45423D">
+<sourceConnName>Delivery</sourceConnName>
+<sourceObjSchema>PAYMENT</sourceObjSchema>
+<sourceObjName>PAYMENTMETHOD</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-03 06:39:38 UTC</createdTime>
+<ownerDesignName>배달 데이터베이스</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRICE" id="50D76328-8E90-D302-7594-1D26D8704576">
+<sourceConnName>Delivery</sourceConnName>
+<sourceObjSchema>PAYMENT</sourceObjSchema>
+<sourceObjName>PRICE</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-03 06:39:38 UTC</createdTime>
+<ownerDesignName>배달 데이터베이스</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84985AA6-B6CC-F732-C6AC-28B081AA4FD6" schemaObject="58CB47DD-0A70-D72B-221D-7501BC63154E" name="PAYMENT_PK">
+<sourceConnName>Delivery</sourceConnName>
+<sourceObjSchema>C##DELIVERY</sourceObjSchema>
+<sourceObjName>SYS_C007898</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-03 06:39:38 UTC</createdTime>
+<ownerDesignName>배달 데이터베이스</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3484E0C3-0CAC-B820-5F05-F4BCE242E3CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF9C8C26-43B4-B40D-D9BE-F53BE1A91B85" name="SYS_C007899">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-03 06:39:39 UTC</createdTime>
+<ownerDesignName>배달 데이터베이스</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18BB57A9-AE2F-18D3-F40C-BE55F4F93481"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="CUSTOMER" directorySegmentName="seg_0" id="254CBD0B-C0B1-F31A-B753-99814BA65BA8">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-03 06:39:38 UTC</createdTime>
+<ownerDesignName>배달 데이터베이스</ownerDesignName>
+<schemaObject>58CB47DD-0A70-D72B-221D-7501BC63154E</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>44894317-43CA-7A4E-D55E-2B884970D140</segment>
+<tableSpace>8C508277-EA0F-C91F-7F31-0C690AAB521C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PHONENUMBER" id="324A2890-9BC2-0239-29CB-900150D89B63">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-03 06:39:38 UTC</createdTime>
+<ownerDesignName>배달 데이터베이스</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USER_ID" id="AA60B0BD-91D3-7B69-67C8-69A38257D1D1">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-03 06:39:38 UTC</createdTime>
+<ownerDesignName>배달 데이터베이스</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMAIL" id="C2C084DF-7239-5C64-604E-CEB096E94AA5">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-03 06:39:38 UTC</createdTime>
+<ownerDesignName>배달 데이터베이스</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="CEFE6278-33E4-4D62-FAB3-67990FBC8F61">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-03 06:39:38 UTC</createdTime>
+<ownerDesignName>배달 데이터베이스</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CUSTOMER_PK" id="9C8DCD37-5513-7035-958E-6DB8248A7844">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-03 06:39:39 UTC</createdTime>
+<ownerDesignName>배달 데이터베이스</ownerDesignName>
+<schemaObject>58CB47DD-0A70-D72B-221D-7501BC63154E</schemaObject>
+<segment>C80596AD-AA58-6031-AD63-C549520EA48D</segment>
+<tableSpace>8C508277-EA0F-C91F-7F31-0C690AAB521C</tableSpace>
+<indexSegment>C80596AD-AA58-6031-AD63-C549520EA48D</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

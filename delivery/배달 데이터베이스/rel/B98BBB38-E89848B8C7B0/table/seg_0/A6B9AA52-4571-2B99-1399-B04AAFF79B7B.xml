@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A6B9AA52-4571-2B99-1399-B04AAFF79B7B" schemaObject="58CB47DD-0A70-D72B-221D-7501BC63154E" name="SHOP">
+<sourceConnName>Delivery</sourceConnName>
+<sourceObjSchema>C##DELIVERY</sourceObjSchema>
+<sourceObjName>SHOP</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-03 06:39:38 UTC</createdTime>
+<ownerDesignName>배달 데이터베이스</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SHOP_ID" id="AB63D41D-D3FA-9FA6-064E-247DE45F9B02">
+<sourceConnName>Delivery</sourceConnName>
+<sourceObjSchema>SHOP</sourceObjSchema>
+<sourceObjName>SHOP_ID</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-03 06:39:38 UTC</createdTime>
+<ownerDesignName>배달 데이터베이스</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="0C89A8F5-5F34-11D2-B44E-4662DA3AE25E">
+<sourceConnName>Delivery</sourceConnName>
+<sourceObjSchema>SHOP</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-03 06:39:38 UTC</createdTime>
+<ownerDesignName>배달 데이터베이스</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOCATION" id="A6139021-A586-AFCD-7BD3-FD0E52002273">
+<sourceConnName>Delivery</sourceConnName>
+<sourceObjSchema>SHOP</sourceObjSchema>
+<sourceObjName>LOCATION</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-03 06:39:38 UTC</createdTime>
+<ownerDesignName>배달 데이터베이스</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SHOPNUMBER" id="AB783DFD-A306-F08E-2F79-6FE1BE2CCB2B">
+<sourceConnName>Delivery</sourceConnName>
+<sourceObjSchema>SHOP</sourceObjSchema>
+<sourceObjName>SHOPNUMBER</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-03 06:39:38 UTC</createdTime>
+<ownerDesignName>배달 데이터베이스</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="24558A74-70BA-5B06-08E2-118ADBB90121" schemaObject="58CB47DD-0A70-D72B-221D-7501BC63154E" name="SHOP_PK">
+<sourceConnName>Delivery</sourceConnName>
+<sourceObjSchema>C##DELIVERY</sourceObjSchema>
+<sourceObjName>SYS_C007892</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-03 06:39:38 UTC</createdTime>
+<ownerDesignName>배달 데이터베이스</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB63D41D-D3FA-9FA6-064E-247DE45F9B02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

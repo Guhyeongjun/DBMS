@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="SHOP" directorySegmentName="seg_0" id="A6B9AA52-4571-2B99-1399-B04AAFF79B7B">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-03 06:39:38 UTC</createdTime>
+<ownerDesignName>배달 데이터베이스</ownerDesignName>
+<schemaObject>58CB47DD-0A70-D72B-221D-7501BC63154E</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>44894317-43CA-7A4E-D55E-2B884970D140</segment>
+<tableSpace>8C508277-EA0F-C91F-7F31-0C690AAB521C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NAME" id="0C89A8F5-5F34-11D2-B44E-4662DA3AE25E">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-03 06:39:38 UTC</createdTime>
+<ownerDesignName>배달 데이터베이스</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOCATION" id="A6139021-A586-AFCD-7BD3-FD0E52002273">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-03 06:39:38 UTC</createdTime>
+<ownerDesignName>배달 데이터베이스</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SHOP_ID" id="AB63D41D-D3FA-9FA6-064E-247DE45F9B02">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-03 06:39:38 UTC</createdTime>
+<ownerDesignName>배달 데이터베이스</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SHOPNUMBER" id="AB783DFD-A306-F08E-2F79-6FE1BE2CCB2B">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-03 06:39:38 UTC</createdTime>
+<ownerDesignName>배달 데이터베이스</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SHOP_PK" id="24558A74-70BA-5B06-08E2-118ADBB90121">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-05-03 06:39:39 UTC</createdTime>
+<ownerDesignName>배달 데이터베이스</ownerDesignName>
+<schemaObject>58CB47DD-0A70-D72B-221D-7501BC63154E</schemaObject>
+<segment>C80596AD-AA58-6031-AD63-C549520EA48D</segment>
+<tableSpace>8C508277-EA0F-C91F-7F31-0C690AAB521C</tableSpace>
+<indexSegment>C80596AD-AA58-6031-AD63-C549520EA48D</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>
